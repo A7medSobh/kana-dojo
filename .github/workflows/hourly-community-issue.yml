@@ -1226,6 +1226,9 @@ jobs:
               repo: context.repo.repo,
               title: issueTitle,
               body: issueBody,
+              // Include labels in the creation request so GitHub receives this as
+              // a good-first-issue at the same time as the opened event.
+              labels,
               type: 'Task'
             };
 
@@ -1237,7 +1240,7 @@ jobs:
 
             console.log(`Created issue #${response.data.number}: ${issueTitle}`);
 
-            // Pass labels to the next step via output (labels/reactions/comments use GITHUB_TOKEN)
+            // Pass labels to the next step for logging and backwards-compatible outputs.
             core.setOutput('issue_labels', labels.join(','));
 
             state.lastType = selectedType;
@@ -1257,17 +1260,15 @@ jobs:
             core.setOutput('notify_discord', 'false');
             core.setOutput('backlog_file', backlogFileMap[selectedType] || 'community/backlog/');
 
-      - name: Apply labels, reactions, and welcome comment
+      - name: Add reactions and welcome comment
         if: steps.create-issue.outputs.issue_created == 'true'
         uses: actions/github-script@v7
         env:
           ISSUE_NUMBER: ${{ steps.create-issue.outputs.issue_number }}
-          ISSUE_LABELS: ${{ steps.create-issue.outputs.issue_labels }}
         with:
           github-token: ${{ secrets.AUTOMATION_PR_TOKEN || secrets.GITHUB_TOKEN }}
           script: |
             const issueNumber = Number(process.env.ISSUE_NUMBER);
-            const labels = process.env.ISSUE_LABELS.split(',').filter(Boolean);
             const templates = require('./.github/templates/messages.cjs');
             const t = templates.issueCreation;
             const reactionPool = ['+1', '-1', 'laugh', 'hooray', 'confused', 'heart', 'rocket', 'eyes'];
@@ -1275,19 +1276,6 @@ jobs:
             function pickRandomReactions(count) {
               const shuffled = [...reactionPool].sort(function() { return Math.random() - 0.5; });
               return shuffled.slice(0, Math.min(count, reactionPool.length));
-            }
-
-            // Apply labels
-            try {
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issueNumber,
-                labels
-              });
-              console.log(`Applied labels: ${labels.join(', ')}`);
-            } catch (e) {
-              console.log(`Could not apply labels: ${e.message}`);
             }
 
             // Add five random unique reactions to issue
