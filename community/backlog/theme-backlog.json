@@ -1519,7 +1519,9 @@
     "mainColor": "oklch(72.0% 0.225 320.0 / 1)",
     "secondaryColor": "oklch(80.0% 0.195 200.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "vinithalakhwani6869-ops",
+    "completedPR": 30329
   },
   {
     "id": "moonlit-bay",
