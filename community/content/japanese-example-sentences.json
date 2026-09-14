@@ -167,12 +167,12 @@
     "english": "It has been three months since I started studying Japanese.",
     "jlpt": "N5"
   },
-{
-  "japanese": "彼は日本で働くためにビジネス日本語を学んでいる。",
-  "romaji": "Kare wa Nihon de hataraku tame ni bijinesu nihongo o manande iru.",
-  "english": "He studies business Japanese to work in Japan.",
-  "jlpt": "N3"
-},
+  {
+    "japanese": "彼は日本で働くためにビジネス日本語を学んでいる。",
+    "romaji": "Kare wa Nihon de hataraku tame ni bijinesu nihongo o manande iru.",
+    "english": "He studies business Japanese to work in Japan.",
+    "jlpt": "N3"
+  },
   {
     "japanese": "彼女は忙しいはずなのに、いつも丁寧に返信してくれる。",
     "romaji": "Kanojo wa isogashii hazu na noni, itsumo teinei ni henshin shite kureru.",
@@ -180,33 +180,39 @@
     "jlpt": "N2"
   },
   {
-  "japanese": "彼は日本で働くためにビジネス日本語を学んでいる。",
-  "romaji": "Kare wa Nihon de hataraku tame ni bijinesu nihongo o manande iru.",
-  "english": "He studies business Japanese to work in Japan.",
-  "jlpt": "N3"
+    "japanese": "彼は日本で働くためにビジネス日本語を学んでいる。",
+    "romaji": "Kare wa Nihon de hataraku tame ni bijinesu nihongo o manande iru.",
+    "english": "He studies business Japanese to work in Japan.",
+    "jlpt": "N3"
   },
   {
-  "japanese": "もし時間があれば、一緒に復習しませんか。",
-  "romaji": "Moshi jikan ga areba, issho ni fukushuu shimasen ka.",
-  "english": "If you have time, would you like to review together?",
-  "jlpt": "N3"
-},
-{
-  "japanese": "この漢字の読み方を教えてください。",
-  "romaji": "Kono kanji no yomikata o oshiete kudasai.",
-  "english": "Please tell me how to read this kanji.",
-  "jlpt": "N5"
-},
-{
-  "japanese": "もし時間があれば、一緒に復習しませんか。",
-  "romaji": "Moshi jikan ga areba, issho ni fukushuu shimasen ka.",
-  "english": "If you have time, would you like to review together?",
-  "jlpt": "N3"
-},
-{
-  "japanese": "店員さんにおすすめの料理を聞いてみた。",
-  "romaji": "Tenin-san ni osusume no ryouri o kiite mita.",
-  "english": "I asked the staff for recommended dishes.",
-  "jlpt": "N4"
-},
+    "japanese": "もし時間があれば、一緒に復習しませんか。",
+    "romaji": "Moshi jikan ga areba, issho ni fukushuu shimasen ka.",
+    "english": "If you have time, would you like to review together?",
+    "jlpt": "N3"
+  },
+  {
+    "japanese": "この漢字の読み方を教えてください。",
+    "romaji": "Kono kanji no yomikata o oshiete kudasai.",
+    "english": "Please tell me how to read this kanji.",
+    "jlpt": "N5"
+  },
+  {
+    "japanese": "もし時間があれば、一緒に復習しませんか。",
+    "romaji": "Moshi jikan ga areba, issho ni fukushuu shimasen ka.",
+    "english": "If you have time, would you like to review together?",
+    "jlpt": "N3"
+  },
+  {
+    "japanese": "店員さんにおすすめの料理を聞いてみた。",
+    "romaji": "Tenin-san ni osusume no ryouri o kiite mita.",
+    "english": "I asked the staff for recommended dishes.",
+    "jlpt": "N4"
+  },
+  {
+    "japanese": "この問題は思ったより難しくなかった。",
+    "romaji": "Kono mondai wa omotta yori muzukashiku nakatta.",
+    "english": "This problem wasn't as hard as I expected.",
+    "jlpt": "N3"
+  }
 ]
