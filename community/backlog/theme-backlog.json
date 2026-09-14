@@ -477,7 +477,9 @@
     "mainColor": "oklch(82.0% 0.135 85.0 / 1)",
     "secondaryColor": "oklch(65.0% 0.165 40.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "Kev-id",
+    "completedPR": 30408
   },
   {
     "id": "ghost-parade",
