@@ -771,7 +771,9 @@
     "mainColor": "oklch(58.0% 0.195 25.0 / 1)",
     "secondaryColor": "oklch(70.0% 0.145 50.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "shahinsamiur",
+    "completedPR": 30451
   },
   {
     "id": "pagoda-twilight",
