@@ -477,9 +477,7 @@
     "mainColor": "oklch(82.0% 0.135 85.0 / 1)",
     "secondaryColor": "oklch(65.0% 0.165 40.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "Kev-id",
-    "completedPR": 30408
+    "completed": false
   },
   {
     "id": "ghost-parade",
@@ -639,9 +637,7 @@
     "mainColor": "oklch(62.0% 0.175 155.0 / 1)",
     "secondaryColor": "oklch(85.0% 0.095 95.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "Chinmay-23-cpu",
-    "completedPR": 30294
+    "completed": false
   },
   {
     "id": "castle-gate",
@@ -771,9 +767,7 @@
     "mainColor": "oklch(58.0% 0.195 25.0 / 1)",
     "secondaryColor": "oklch(70.0% 0.145 50.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "shahinsamiur",
-    "completedPR": 30451
+    "completed": false
   },
   {
     "id": "pagoda-twilight",
@@ -1523,9 +1517,7 @@
     "mainColor": "oklch(72.0% 0.225 320.0 / 1)",
     "secondaryColor": "oklch(80.0% 0.195 200.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "vinithalakhwani6869-ops",
-    "completedPR": 30329
+    "completed": false
   },
   {
     "id": "moonlit-bay",

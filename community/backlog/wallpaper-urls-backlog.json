@@ -21,9 +21,7 @@
     "id": 4,
     "url": "https://media.examplecdn.dev/scenery/fuji-at-blue-hour-3840x2160.jpg",
     "issued": false,
-    "completed": false,
-    "completedBy": "debjits1",
-    "completedPR": 30466
+    "completed": false
   },
   {
     "id": 5,
