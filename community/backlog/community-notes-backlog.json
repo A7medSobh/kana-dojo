@@ -5,7 +5,9 @@
     "position": "bottom",
     "text": "- Community note: this file is used for lightweight contribution practice.",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "theart366-tech",
+    "completedPR": 30470
   },
   {
     "id": 2,
