@@ -1827,7 +1827,9 @@
     "mainColor": "oklch(72.0% 0.085 50.0 / 1)",
     "secondaryColor": "oklch(60.0% 0.060 35.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "YuEfSaEDU",
+    "completedPR": 30498
   },
   {
     "id": "driftwood-brown",
