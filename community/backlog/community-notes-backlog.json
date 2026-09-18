@@ -15,7 +15,9 @@
     "position": "top",
     "text": "> Community note: this page intentionally accepts tiny formatting-safe edits.",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "Cincinnatus101010",
+    "completedPR": 30528
   },
   {
     "id": 3,
