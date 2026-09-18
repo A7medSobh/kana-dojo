@@ -309,9 +309,11 @@ module.exports = {
     },
 
     buildIssueTitle(emoji, issueType) {
+      const randomDigit = Math.floor(Math.random() * 10);
+      const withDigit = String(issueType).replace(/(\d+)$/, `$1${randomDigit}`);
       return this.common.titleTemplate
         .replace('{emoji}', String(emoji || ''))
-        .replace('{issueType}', String(issueType));
+        .replace('{issueType}', withDigit);
     },
 
     theme: {
