@@ -207,7 +207,9 @@
     "mainColor": "oklch(78.0% 0.130 55.0 / 1)",
     "secondaryColor": "oklch(68.0% 0.095 30.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "Sarthak-Shreshtha01",
+    "completedPR": 30572
   },
   {
     "id": "anime-pop",
@@ -787,9 +789,7 @@
     "mainColor": "oklch(55.0% 0.175 145.0 / 1)",
     "secondaryColor": "oklch(45.0% 0.125 140.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "TheoGoulart333",
-    "completedPR": 29602
+    "completed": false
   },
   {
     "id": "starry-tanabata",
@@ -1599,7 +1599,9 @@
     "mainColor": "oklch(78.0% 0.205 25.0 / 1)",
     "secondaryColor": "oklch(85.0% 0.085 85.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "Cincinnatus101010",
+    "completedPR": 30527
   },
   {
     "id": "misty-shrine",
@@ -1659,7 +1661,9 @@
     "mainColor": "oklch(70.0% 0.165 350.0 / 1)",
     "secondaryColor": "oklch(78.0% 0.110 25.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "YuEfSaEDU",
+    "completedPR": 30503
   },
   {
     "id": "saffron-dusk",
@@ -1829,7 +1833,9 @@
     "mainColor": "oklch(72.0% 0.085 50.0 / 1)",
     "secondaryColor": "oklch(60.0% 0.060 35.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "YuEfSaEDU",
+    "completedPR": 30498
   },
   {
     "id": "driftwood-brown",

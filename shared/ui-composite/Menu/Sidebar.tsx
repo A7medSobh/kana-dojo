@@ -229,7 +229,7 @@ const NavLink = memo(
             prefetch
             onClick={onClick}
             className={clsx(
-              'relative z-10 flex items-center gap-2 rounded-2xl',
+              'group relative z-10 flex items-center gap-2 rounded-2xl transition-colors duration-250',
               isMain ? 'text-2xl' : 'text-sm',
               'max-lg:justify-center max-lg:px-3 lg:w-full lg:px-4',
               isDesktopCollapsed && isMain && 'lg:justify-center lg:px-3',
@@ -252,8 +252,10 @@ const NavLink = memo(
             </span>
             <span
               className={clsx(
+                'transition-colors duration-250',
                 isMain && 'max-lg:hidden',
                 isMain && isDesktopCollapsed && 'lg:hidden',
+                !isActive && 'group-hover:text-(--main-color)',
               )}
             >
               {item.label}
