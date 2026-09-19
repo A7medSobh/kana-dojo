@@ -299,5 +299,12 @@
     "english": "What are you talking about?!",
     "region": "Kansai",
     "note": "Classic comedic retort (tsukkomi). (Set 6)"
+  },
+  {
+    "dialect": "なまら",
+    "standardJapanese": "とても",
+    "english": "very",
+    "region": "Hokkaido",
+    "note": "Hokkaido intensifier. (Set 1)"
   }
 ]
