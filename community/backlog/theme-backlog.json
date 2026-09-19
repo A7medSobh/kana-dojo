@@ -207,7 +207,9 @@
     "mainColor": "oklch(78.0% 0.130 55.0 / 1)",
     "secondaryColor": "oklch(68.0% 0.095 30.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "Sarthak-Shreshtha01",
+    "completedPR": 30572
   },
   {
     "id": "anime-pop",
