@@ -859,7 +859,9 @@
     "mainColor": "oklch(40.0% 0.145 255.0 / 1)",
     "secondaryColor": "oklch(60.0% 0.175 20.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "aryan9948",
+    "completedPR": 30581
   },
   {
     "id": "street-lantern",
