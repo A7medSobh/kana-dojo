@@ -15,6 +15,16 @@ describe('isKanjiClassicInputAnswerCorrect', () => {
     },
   );
 
+  it('accepts typed dots for a meaning with an ellipsis', () => {
+    expect(
+      isKanjiClassicInputAnswerCorrect({
+        inputValue: 'well then...',
+        target: ['well then…'],
+        isReverse: false,
+      }),
+    ).toBe(true);
+  });
+
   it('preserves Classic Input reading answers', () => {
     expect(
       isKanjiClassicInputAnswerCorrect({
