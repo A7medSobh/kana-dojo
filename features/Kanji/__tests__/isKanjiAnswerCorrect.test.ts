@@ -14,6 +14,15 @@ describe('isKanjiAnswerCorrect', () => {
     expect(isKanjiAnswerCorrect(kanji, ' china ', false)).toBe(true);
   });
 
+  it.each(['well then...', 'well then…', 'Well then...', 'well then....'])(
+    'accepts %s when the stored meaning uses an ellipsis',
+    answer => {
+      const phrase = { ...kanji, meanings: ['well then…'] };
+
+      expect(isKanjiAnswerCorrect(phrase, answer, false)).toBe(true);
+    },
+  );
+
   it.each(['speak', 'Speak', 'to speak', '  TO   SPEAK  '])(
     'accepts optional infinitive prefix in meaning answer %s',
     answer => {
