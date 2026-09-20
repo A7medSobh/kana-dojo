@@ -14,11 +14,14 @@ const OPTIONAL_MEANING_PREFIX =
 
 /**
  * Meanings in the data use the single ellipsis character ("well then…"),
- * but people type three dots, so both spellings are treated as equal.
+ * but people type three dots (or more), so every ellipsis spelling is
+ * folded to a canonical "..." before comparing.
  */
+const ELLIPSIS_VARIANTS = /…|\.{2,}/g;
+
 const normalizeMeaning = (value: string): string =>
   normalize(value)
-    .replace(/…/g, '...')
+    .replace(ELLIPSIS_VARIANTS, '...')
     .replace(OPTIONAL_MEANING_PREFIX, '');
 
 export const isVocabularyMeaningAnswerCorrect = (
