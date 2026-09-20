@@ -12,8 +12,17 @@ const normalize = (value: string): string =>
 const OPTIONAL_MEANING_PREFIX =
   /^(?:to(?!\s+(?:the|an|a)\s+)\s+|(?:the|an|a)\s+)/;
 
+/**
+ * Meanings in the data use the single ellipsis character ("well then…"),
+ * but people type three dots (or more), so every ellipsis spelling is
+ * folded to a canonical "..." before comparing.
+ */
+const ELLIPSIS_VARIANTS = /…|\.{2,}/g;
+
 const normalizeMeaning = (value: string): string =>
-  normalize(value).replace(OPTIONAL_MEANING_PREFIX, '');
+  normalize(value)
+    .replace(ELLIPSIS_VARIANTS, '...')
+    .replace(OPTIONAL_MEANING_PREFIX, '');
 
 export const isVocabularyMeaningAnswerCorrect = (
   vocabulary: IVocabObj,
