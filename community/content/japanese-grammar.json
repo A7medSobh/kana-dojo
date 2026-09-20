@@ -19,19 +19,13 @@
   "\"〜てもらう\" means \"receive a favor\" from someone. (practice variation 16)",
   "\"〜せいで\" indicates a negative cause, \"because of\". (practice variation 53)",
   "\"〜てしまう\" can express completion or regret (\"end up doing\").",
-  "\"〜ても\" means \"even if\" or \"even though\". (practice variation 22)"
+  "\"〜ても\" means \"even if\" or \"even though\". (practice variation 22)",
   "\"〜てはいけません\" means \"must not\" and is used for prohibitions. (practice variation 5)",
   "\"〜に加えて\" means \"in addition to...\".",
   "\"〜ば〜ほど\" means \"the more... the more...\". (practice variation 55)",
-"\"〜ために\" also means \"for the sake of\" and explains purpose or reason.",
+  "\"〜ために\" also means \"for the sake of\" and explains purpose or reason.",
   "\"〜わけではない\" means \"not necessarily\" or \"it's not that\".",
   "\"〜ようです\" means \"it seems like\" and is based on observation. (practice variation 10)",
-{
-  "japanese": "気が短い",
-  "romaji": "Ki ga mijikai",
-  "english": "Short-tempered",
-  "meaning": "Impatient temperament. (Set 5)"
-},
   "\"〜なら\" means \"if\" or \"in the case of\" and often gives advice. (practice variation 19)",
   "\"〜ていく/〜てくる\" shows direction or change over time, like \"will start\" or \"have been\". (practice variation 33)",
   "\"〜ことになる\" indicates something was decided (by others or circumstances).",
@@ -40,8 +34,9 @@
   "\"〜かもしれない\" means \"might be\" or \"maybe\".",
   "\"〜てもらう\" means \"receive a favor\" from someone\".",
   "〜に限って means \"only / exclusively\".",
-"\"〜おう/〜よう\" is the volitional form, used to say \"let's\" or \"I will\". (practice variation 30)",
+  "\"〜おう/〜よう\" is the volitional form, used to say \"let's\" or \"I will\". (practice variation 30)",
   "\"〜にとって\" means \"for / to (someone)\".",
   "\"〜というより\" means \"rather than\" or \"more like\". (practice variation 51)",
-  ""〜にとって" means "for / to (someone)"."
+  "\"〜にとって\" means \"for / to (someone)\".",
+  "\"〜でしょう\" adds probability or softens statements, like \"probably\"."
 ]
