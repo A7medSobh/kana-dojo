@@ -407,7 +407,9 @@
     "mainColor": "oklch(62.0% 0.115 135.0 / 1)",
     "secondaryColor": "oklch(75.0% 0.075 90.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "Abdallah-Mushtaha",
+    "completedPR": 30670
   },
   {
     "id": "hanabi-festival",
