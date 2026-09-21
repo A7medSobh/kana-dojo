@@ -126,13 +126,6 @@
     "note": "Explanatory ending in conversation. (Set 2)"
   },
   {
-    "dialect": "でら",
-    "standardJapanese": "とても",
-    "english": "very",
-    "region": "Nagoya",
-    "note": "Characteristic Nagoya intensifier. (Set 1)"
-  },
-  {
     "dialect": "にふぇーでーびる",
     "standardJapanese": "ありがとうございます",
     "english": "thank you",
@@ -306,5 +299,12 @@
     "english": "very",
     "region": "Hokkaido",
     "note": "Hokkaido intensifier. (Set 1)"
+  },
+  {
+    "dialect": "でら",
+    "standardJapanese": "とても",
+    "english": "very",
+    "region": "Nagoya",
+  "note": "Characteristic Nagoya intensifier. (Set 1)"
   }
 ]
