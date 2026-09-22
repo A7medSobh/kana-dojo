@@ -2,6 +2,7 @@
 
 import React, { Component, ReactNode, ErrorInfo } from 'react';
 import { ErrorFallback } from './ErrorFallback';
+import { logError } from '@/shared/utils/errorLogger';
 
 interface Props {
   children: ReactNode;
@@ -33,13 +34,14 @@ export class GlobalErrorBoundary extends Component<Props, State> {
     };
   }
 
-  // Log error information
   componentDidCatch(error: Error, errorInfo: ErrorInfo) {
-    // Log to console in development
-    console.error('Global Error Boundary caught an error:', error, errorInfo);
+  // Log to console in development
+  console.error('Global Error Boundary caught an error:', error, errorInfo);
 
-    // TODO: Send to error tracking service (Sentry, LogRocket, etc.)
-    // logErrorToService(error, errorInfo);
+  // Log error using the existing error logger
+  logError(error, errorInfo, {
+    boundary: 'global',
+    });
   }
 
   // Reset error state

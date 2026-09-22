@@ -2,6 +2,7 @@
 
 import React, { Component, ReactNode, ErrorInfo } from 'react';
 import { ErrorFallback } from './ErrorFallback';
+import { logError } from '@/shared/utils/errorLogger';
 
 interface Props {
   children: ReactNode;
@@ -45,8 +46,11 @@ export class GameErrorBoundary extends Component<Props, State> {
       errorInfo,
     );
 
-    // TODO: Send to error tracking service with game context
-    // logErrorToService(error, { ...errorInfo, gameName });
+    // Log error using the existing error logger
+    logError(error, errorInfo, {
+      boundary: 'game',
+      gameName: gameName || 'Unknown',
+    });
   }
 
   // Reset error state and restart game
