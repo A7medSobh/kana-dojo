@@ -919,7 +919,9 @@
     "mainColor": "oklch(68.0% 0.185 40.0 / 1)",
     "secondaryColor": "oklch(78.0% 0.135 55.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "VindhyaVodamodula",
+    "completedPR": 30776
   },
   {
     "id": "jpop-energy",
