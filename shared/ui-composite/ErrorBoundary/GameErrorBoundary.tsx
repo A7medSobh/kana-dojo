@@ -39,14 +39,6 @@ export class GameErrorBoundary extends Component<Props, State> {
   componentDidCatch(error: Error, errorInfo: ErrorInfo) {
     const { gameName } = this.props;
 
-    // Log to console with game context
-    console.error(
-      `Game Error Boundary (${gameName || 'Unknown'}) caught an error:`,
-      error,
-      errorInfo,
-    );
-
-    // Log error using the existing error logger
     logError(error, errorInfo, {
       boundary: 'game',
       gameName: gameName || 'Unknown',
