@@ -1,13 +1,13 @@
-import { normalizeKanjiMeaningAnswer } from './isKanjiAnswerCorrect';
+import {
+  normalizeAnswerValue,
+  normalizeMeaningAnswer,
+} from '@/shared/utils/meanings';
 
 interface KanjiClassicInputAnswerOptions {
   inputValue: string;
   target: string | string[] | undefined;
   isReverse: boolean;
 }
-
-const normalizeExactAnswer = (value: string): string =>
-  value.trim().normalize('NFC').toLowerCase();
 
 export const isKanjiClassicInputAnswerCorrect = ({
   inputValue,
@@ -17,16 +17,16 @@ export const isKanjiClassicInputAnswerCorrect = ({
   if (isReverse) {
     return (
       typeof target === 'string' &&
-      normalizeExactAnswer(target) === normalizeExactAnswer(inputValue)
+      normalizeAnswerValue(target) === normalizeAnswerValue(inputValue)
     );
   }
 
   if (!Array.isArray(target)) return false;
 
-  const normalizedInput = normalizeKanjiMeaningAnswer(inputValue);
+  const normalizedInput = normalizeMeaningAnswer(inputValue);
   if (!normalizedInput) return false;
 
   return target.some(
-    answer => normalizeKanjiMeaningAnswer(answer) === normalizedInput,
+    answer => normalizeMeaningAnswer(answer) === normalizedInput,
   );
 };

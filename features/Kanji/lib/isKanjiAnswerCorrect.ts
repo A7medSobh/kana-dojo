@@ -1,21 +1,11 @@
 import type { IKanjiObj } from '@/entities/kanji';
-
-const normalize = (value: string): string =>
-  value.trim().normalize('NFC').toLowerCase();
-
-/**
- * A lone English infinitive marker or article is optional. Compound prefixes
- * such as "to the" are preserved because removing both can change meaning
- * (for example, "to the point" is not equivalent to "point").
- */
-const OPTIONAL_MEANING_PREFIX =
-  /^(?:to(?!\s+(?:the|an|a)\s+)\s+|(?:the|an|a)\s+)/;
-
-export const normalizeKanjiMeaningAnswer = (value: string): string =>
-  normalize(value).replace(OPTIONAL_MEANING_PREFIX, '');
+import {
+  normalizeAnswerValue,
+  normalizeMeaningAnswer,
+} from '@/shared/utils/meanings';
 
 const normalizeReading = (value: string): string =>
-  normalize(value.split(' ')[0] ?? '');
+  normalizeAnswerValue(value.split(' ')[0] ?? '');
 
 export const isKanjiAnswerCorrect = (
   kanji: IKanjiObj,
@@ -23,18 +13,18 @@ export const isKanjiAnswerCorrect = (
   isReverse: boolean | undefined,
 ): boolean => {
   const normalizedAnswer = isReverse
-    ? normalize(answer)
-    : normalizeKanjiMeaningAnswer(answer);
+    ? normalizeAnswerValue(answer)
+    : normalizeMeaningAnswer(answer);
   if (!normalizedAnswer) return false;
 
   if (!isReverse) {
     return kanji.meanings.some(
-      meaning => normalizeKanjiMeaningAnswer(meaning) === normalizedAnswer,
+      meaning => normalizeMeaningAnswer(meaning) === normalizedAnswer,
     );
   }
 
   return (
-    normalize(kanji.kanjiChar) === normalizedAnswer ||
+    normalizeAnswerValue(kanji.kanjiChar) === normalizedAnswer ||
     kanji.kunyomi.some(
       reading => normalizeReading(reading) === normalizedAnswer,
     ) ||

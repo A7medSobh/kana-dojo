@@ -207,9 +207,7 @@
     "mainColor": "oklch(78.0% 0.130 55.0 / 1)",
     "secondaryColor": "oklch(68.0% 0.095 30.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "Sarthak-Shreshtha01",
-    "completedPR": 30572
+    "completed": false
   },
   {
     "id": "anime-pop",
@@ -409,7 +407,9 @@
     "mainColor": "oklch(62.0% 0.115 135.0 / 1)",
     "secondaryColor": "oklch(75.0% 0.075 90.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "Abdallah-Mushtaha",
+    "completedPR": 30670
   },
   {
     "id": "hanabi-festival",
@@ -609,7 +609,9 @@
     "mainColor": "oklch(65.0% 0.195 40.0 / 1)",
     "secondaryColor": "oklch(75.0% 0.145 85.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "Puneet00007",
+    "completedPR": 30792
   },
   {
     "id": "onsen-steam",
@@ -859,9 +861,7 @@
     "mainColor": "oklch(40.0% 0.145 255.0 / 1)",
     "secondaryColor": "oklch(60.0% 0.175 20.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "aryan9948",
-    "completedPR": 30581
+    "completed": false
   },
   {
     "id": "street-lantern",
@@ -921,7 +921,9 @@
     "mainColor": "oklch(68.0% 0.185 40.0 / 1)",
     "secondaryColor": "oklch(78.0% 0.135 55.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "VindhyaVodamodula",
+    "completedPR": 30776
   },
   {
     "id": "jpop-energy",
@@ -1021,7 +1023,9 @@
     "mainColor": "oklch(78.0% 0.135 145.0 / 1)",
     "secondaryColor": "oklch(70.0% 0.090 110.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "giarmidisaris",
+    "completedPR": 30679
   },
   {
     "id": "tsukimi-moon",
@@ -1501,7 +1505,9 @@
     "mainColor": "oklch(70.0% 0.195 55.0 / 1)",
     "secondaryColor": "oklch(80.0% 0.125 95.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "codewithabhiishek",
+    "completedPR": 30732
   },
   {
     "id": "bamboo-shadow",
@@ -1601,9 +1607,7 @@
     "mainColor": "oklch(78.0% 0.205 25.0 / 1)",
     "secondaryColor": "oklch(85.0% 0.085 85.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "Cincinnatus101010",
-    "completedPR": 30527
+    "completed": false
   },
   {
     "id": "misty-shrine",
@@ -1663,9 +1667,7 @@
     "mainColor": "oklch(70.0% 0.165 350.0 / 1)",
     "secondaryColor": "oklch(78.0% 0.110 25.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "YuEfSaEDU",
-    "completedPR": 30503
+    "completed": false
   },
   {
     "id": "saffron-dusk",
@@ -1835,9 +1837,7 @@
     "mainColor": "oklch(72.0% 0.085 50.0 / 1)",
     "secondaryColor": "oklch(60.0% 0.060 35.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "YuEfSaEDU",
-    "completedPR": 30498
+    "completed": false
   },
   {
     "id": "driftwood-brown",
