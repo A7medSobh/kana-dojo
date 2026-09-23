@@ -228,5 +228,10 @@
   "wrong": "会議は三時からで始まります。",
   "correct": "会議は三時から始まります。",
   "explanation": "Remove unnecessary particle after から. (Pattern set 2)"
+  },
+  {
+  "wrong": "駅まで十分歩きますかかる。",
+  "correct": "駅まで歩いて十分かかる。",
+  "explanation": "Use natural collocation and order. (Pattern set 3)"
   }
 ]
