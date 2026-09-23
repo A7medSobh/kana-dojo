@@ -223,5 +223,10 @@
   "wrong": "これは私のです本。",
   "correct": "これは私の本です。",
   "explanation": "Place の correctly in noun phrase. (Pattern set 3)"
-}
+  },
+  {
+  "wrong": "会議は三時からで始まります。",
+  "correct": "会議は三時から始まります。",
+  "explanation": "Remove unnecessary particle after から. (Pattern set 2)"
+  }
 ]
