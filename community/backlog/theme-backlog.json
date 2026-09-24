@@ -407,9 +407,7 @@
     "mainColor": "oklch(62.0% 0.115 135.0 / 1)",
     "secondaryColor": "oklch(75.0% 0.075 90.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "Abdallah-Mushtaha",
-    "completedPR": 30670
+    "completed": false
   },
   {
     "id": "hanabi-festival",
@@ -609,9 +607,7 @@
     "mainColor": "oklch(65.0% 0.195 40.0 / 1)",
     "secondaryColor": "oklch(75.0% 0.145 85.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "Puneet00007",
-    "completedPR": 30792
+    "completed": false
   },
   {
     "id": "onsen-steam",
@@ -921,9 +917,7 @@
     "mainColor": "oklch(68.0% 0.185 40.0 / 1)",
     "secondaryColor": "oklch(78.0% 0.135 55.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "VindhyaVodamodula",
-    "completedPR": 30776
+    "completed": false
   },
   {
     "id": "jpop-energy",
@@ -1023,9 +1017,7 @@
     "mainColor": "oklch(78.0% 0.135 145.0 / 1)",
     "secondaryColor": "oklch(70.0% 0.090 110.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "giarmidisaris",
-    "completedPR": 30679
+    "completed": false
   },
   {
     "id": "tsukimi-moon",
@@ -1505,9 +1497,7 @@
     "mainColor": "oklch(70.0% 0.195 55.0 / 1)",
     "secondaryColor": "oklch(80.0% 0.125 95.0 / 1)",
     "issued": false,
-    "completed": false,
-    "completedBy": "codewithabhiishek",
-    "completedPR": 30732
+    "completed": false
   },
   {
     "id": "bamboo-shadow",
