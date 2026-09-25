@@ -467,7 +467,9 @@
     "mainColor": "oklch(70.0% 0.185 345.0 / 1)",
     "secondaryColor": "oklch(55.0% 0.145 350.0 / 1)",
     "issued": false,
-    "completed": false
+    "completed": false,
+    "completedBy": "sharanrajt",
+    "completedPR": 30935
   },
   {
     "id": "ramen-steam",
