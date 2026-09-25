@@ -316,9 +316,15 @@
   "backgroundColor": "oklch(92.0% 0.025 90.0 / 1)",
   "mainColor": "oklch(65.0% 0.195 40.0 / 1)",
   "secondaryColor": "oklch(75.0% 0.145 85.0 / 1)"
-}
+},
 
   
 
 
+{
+  "id": "shinkansen-speed",
+  "backgroundColor": "oklch(22.0% 0.035 240.0 / 1)",
+  "mainColor": "oklch(90.0% 0.085 220.0 / 1)",
+  "secondaryColor": "oklch(65.0% 0.185 25.0 / 1)"
+}
 ]
